@@ -27,7 +27,6 @@ DROP TABLE IF EXISTS `cliente`;
 CREATE TABLE `cliente` (
   `email` varchar(100) NOT NULL,
   `username` varchar(100) DEFAULT NULL,
-  `pwd` varchar(5000) DEFAULT NULL,
   `nome` varchar(100) NOT NULL,
   `cognome` varchar(100) NOT NULL,
   `data_nascita` date NOT NULL,
