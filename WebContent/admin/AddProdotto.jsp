@@ -51,12 +51,8 @@
 			<p><input type="text" name="img" value="" required></p>
 		</div>
 		<div class="tableRow">
-			<p>Piattaforma:</p>
-			<p><input type="text" name="piattaforma" value="" required></p>
-		</div>
-		<div class="tableRow">
-			<p>Genere:</p>
-			<p><input type="text" name="genere" value="" required></p>
+			<p>Categoria:</p>
+			<p><input type="text" name="Categoria" value="" required></p>
 		</div>
 		<div class="tableRow">	
 			<p>Descrizione dettagliata:</p>
@@ -71,6 +67,6 @@
 	</div>
 
 	<%@ include file="../fragments/footer.jsp" %>
-	
+
 </body>
 </html>
